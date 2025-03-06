@@ -1,158 +1,109 @@
-/* General Styles */
 body {
-    background-color: #FFD9E8; /* Light Pink Background */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+font-family: Arial, sans-serif;
+
+color: #333;
+
+background-color: #f9f9f9;
+
+margin: 0;
+
+padding: 0;
+
+line-height: 1.6;
+
+}
+header {
+
+background-color: #4CAF50;
+
+color: white;
+
+padding: 20px;
+
+text-align: center;
+
 }
 
-/* Header & Footer */
-header, footer {
-    background-color: #D8BFD8; /* Light Purple */
-    color: white;
-    text-align: center;
-    padding: 15px 0;
+
+header h1 {
+
+margin: 0;
+
 }
 
-nav {
-    margin-top: 10px;
-}
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+
+color: white;
+
+text-decoration: none;
+
+margin: 0 10px;
 }
+
 
 nav a:hover {
-    text-decoration: underline;
+
+text-decoration: underline;
+}
+main {
+
+padding: 20px;
+
+max-width: 800px;
+
+margin: 0 auto;
+
 }
 
-/* Buttons */
-button.explore-btn {
-    background-color: #ADD8E6; /* Light Blue */
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    display: block;
-    margin: 20px auto;
+
+main img {
+
+max-width: 100%;
+
+height: auto;
+
+display: block;
+
+margin: 20px 0;
+
+}
+footer {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 10px;
+
+position: fixed;
+
+bottom: 0;
+
+width: 100%;
+
+}
+p {
+
+font-size: 1.1em;
+
 }
 
-button.explore-btn:hover {
-    background-color: #87CEEB;
+
+a {
+
+color: #4CAF50;
+
+text-decoration: none;
+
 }
 
-/* About Page */
-.about-section {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
 
-.about-image img {
-    width: 200px; /* Small Image */
-    height: auto;
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto;
-}
+a:hover {
 
-.short-bio {
-    font-style: italic;
-    font-size: 18px;
-    margin: 20px 0;
-}
+text-decoration: underline;
 
-.career-fun {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    margin-top: 30px;
-}
-
-.career-aspirations, .fun-facts {
-    width: 48%;
-    padding: 20px;
-    background-color: #FFF5F7; /* Light Background */
-    border-radius: 8px;
-}
-
-.personal-contact {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-.personal-info, .contact-info {
-    width: 48%;
-    padding: 20px;
-    background-color: #FFF5F7;
-    border-radius: 8px;
-}
-
-.contact-info a {
-    color: #6A5ACD;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Interests & Hobbies Page */
-.interests-hobbies {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-
-.interest-item {
-    margin-bottom: 30px;
-}
-
-.interest-item img {
-    width: 250px; /* Small Image */
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    margin: 10px auto;
-}
-
-.interest-item p {
-    font-size: 16px;
-}
-
-/* Favorites Section */
-.favorites {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-
-.favorites-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.favorites-item img {
-    width: 150px; /* Small Image */
-    height: auto;
-    border-radius: 10px;
-    margin-right: 15px;
-}
-
-.favorites-item p {
-    font-size: 16px;
-}
-
-/* Footer */
-footer p {
-    margin: 0;
-    font-size: 14px;
 }
